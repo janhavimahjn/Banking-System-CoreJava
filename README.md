@@ -28,37 +28,6 @@ A desktop-based Banking Management System developed using **Core Java, Java Swin
 - **Eclipse IDE**
 - **Git & GitHub**
 
-## Project Structure
-
-BankingSystem
-│
-├── src
-│   │
-│   ├── com.client
-│   │   ├── Client.java
-│   │   ├── LoginFrame.java
-│   │   └── DashboardFrame.java
-│   │
-│   ├── com.data
-│   │   ├── Account.java
-│   │   └── Transaction.java
-│   │
-│   ├── com.services
-│   │   ├── AccountServices.java
-│   │   └── BusinessObjectCreator.java
-│   │
-│   ├── servicesimpl
-│   │   └── AccountServicesImplm.java
-│   │
-│   ├── com.valid
-│   │   └── AccountServiceValidation.java
-│   │
-│   └── com.util
-│       └── DBConnection.java
-│
-├── .gitignore
-└── README.md
-
 ## Database Connection
 
 Connection con = DriverManager.getConnection(
